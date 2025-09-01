@@ -15,3 +15,11 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# Data / Binary
+*.csv
+*.zip
+*.xls
+*.xlsx
+*.xlsm
+*.png
