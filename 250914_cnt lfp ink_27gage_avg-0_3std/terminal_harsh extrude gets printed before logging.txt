@@ -1,0 +1,25 @@
+✅ Resuming from PythonProjects\wall_optimization\bo_log.csv: 3 rows loaded.
+📎 Logged iter 4 (RANDOM) → raw=0.333385 for_BO=0.333385, norm_avg=0.364, norm_std=0.030, avg=35.642, std=0.304
+📎 Logged iter 5 (qUCB(beta=0.25)) → raw=0.251434 for_BO=0.251434, norm_avg=0.402, norm_std=0.150, avg=37.690, std=1.502
+📎 Logged iter 6 (qUCB(beta=0.25)) → raw=0.0490694 for_BO=0.0490694, norm_avg=0.332, norm_std=0.283, avg=33.939, std=2.831
+📎 Logged iter 7 (qUCB(beta=0.25)) → raw=0.370148 for_BO=0.370148, norm_avg=0.397, norm_std=0.027, avg=37.438, std=0.269
+📎 Logged iter 8 (qUCB(beta=0.25)) → raw=0.433206 for_BO=0.433206, norm_avg=0.465, norm_std=0.032, avg=41.121, std=0.320
+📎 Logged iter 9 (qLogNEI) → raw=0.466287 for_BO=0.466287, norm_avg=0.526, norm_std=0.060, avg=44.412, std=0.599
+📎 Logged iter 10 (qLogNEI) → raw=-0.0446754 for_BO=-0.0446754, norm_avg=0.049, norm_std=0.094, avg=18.642, std=0.936
+📎 Logged iter 11 (qLogNEI) → raw=0.259967 for_BO=0.259967, norm_avg=0.366, norm_std=0.106, avg=35.770, std=1.061
+harse extrude
+📎 Logged iter 12 (qLogNEI) → raw=-0.0615019 for_BO=-0.0615019, norm_avg=0.020, norm_std=0.081, avg=17.080, std=0.815
+📎 Logged iter 13 (qLogNEI) → raw=0.0449477 for_BO=0.0449477, norm_avg=0.088, norm_std=0.043, avg=20.776, std=0.435
+📎 Logged iter 14 (qLogNEI) → raw=0.0199042 for_BO=0.0199042, norm_avg=0.100, norm_std=0.080, avg=21.377, std=0.797
+📎 Logged iter 15 (qLogNEI) → raw=0.134004 for_BO=0.134004, norm_avg=0.166, norm_std=0.032, avg=24.959, std=0.319
+harse extrude
+📎 Logged iter 16 (qLogNEI) → raw=-0.0154199 for_BO=-0.0154199, norm_avg=0.002, norm_std=0.017, avg=16.086, std=0.170
+
+
+# 파라미터 범위 27 gage
+PBONDS: Dict[str, Tuple[float, float]] = {
+    "pressure"     : (198.0, 230.0),
+    "velocity"     : (20.0, 40.0),
+    "wall_spacing" : (0.25, 1.0),
+    "number_of_layers": (3.5, 8.5),
+}
